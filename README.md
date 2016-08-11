@@ -40,7 +40,7 @@ timer.onDone(function(){
 });
 
 // Fires when the timer is almost complete - default is 10 seconds remaining. Change with 'almostDoneMS' option
-timer.onAlmostdone(function() {
+timer.onAlmostDone(function() {
 	console.log('Timer is almost complete');
 });
 
